@@ -29,6 +29,8 @@ class ViewController: UIViewController, NFCNDEFReaderSessionDelegate {
     
     func readerSession(_ session: NFCNDEFReaderSession, didDetectNDEFs messages: [NFCNDEFMessage]) {
         performSegue(withIdentifier: "LoadDataIntoTableView", sender: self)
+        
+        return
     }
     
 }
