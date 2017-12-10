@@ -1,5 +1,5 @@
 //
-//  TableTableViewController.swift
+//  TableViewController.swift
 //  Smart Tool Tagging
 //
 //  Created by Alex Johnson on 10/12/2017.
@@ -9,7 +9,7 @@
 import UIKit
 import CoreNFC
 
-class TableTableViewController: UITableViewController {
+class TableViewController: UITableViewController {
     
 @IBOutlet weak var Table: UITableView!
 
@@ -20,12 +20,17 @@ class TableTableViewController: UITableViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
+    
     override func numberOfSections(in tableView: UITableView) -> Int {
         return 0
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return 0
+    }
+    
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        <#code#>
     }
 
 

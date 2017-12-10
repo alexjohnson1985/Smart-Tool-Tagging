@@ -7,15 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3805BD101FDDE03E00700813 /* MyCustomCellController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3805BD0F1FDDE03E00700813 /* MyCustomCellController.swift */; };
 		38B279331FDCBBEC00885BFA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38B279321FDCBBEC00885BFA /* AppDelegate.swift */; };
 		38B279351FDCBBEC00885BFA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38B279341FDCBBEC00885BFA /* ViewController.swift */; };
 		38B279381FDCBBEC00885BFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38B279361FDCBBEC00885BFA /* Main.storyboard */; };
 		38B2793A1FDCBBEC00885BFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38B279391FDCBBEC00885BFA /* Assets.xcassets */; };
 		38B2793D1FDCBBEC00885BFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38B2793B1FDCBBEC00885BFA /* LaunchScreen.storyboard */; };
-		38B279461FDCBCCE00885BFA /* TableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38B279451FDCBCCE00885BFA /* TableTableViewController.swift */; };
+		38B279461FDCBCCE00885BFA /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38B279451FDCBCCE00885BFA /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3805BD0F1FDDE03E00700813 /* MyCustomCellController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCustomCellController.swift; sourceTree = "<group>"; };
 		38B2792F1FDCBBEC00885BFA /* Smart Tool Tagging.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Smart Tool Tagging.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		38B279321FDCBBEC00885BFA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		38B279341FDCBBEC00885BFA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,7 +26,7 @@
 		38B2793C1FDCBBEC00885BFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		38B2793E1FDCBBEC00885BFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		38B279441FDCBC3C00885BFA /* Smart Tool Tagging.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Smart Tool Tagging.entitlements"; sourceTree = "<group>"; };
-		38B279451FDCBCCE00885BFA /* TableTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableTableViewController.swift; sourceTree = "<group>"; };
+		38B279451FDCBCCE00885BFA /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +62,8 @@
 				38B279441FDCBC3C00885BFA /* Smart Tool Tagging.entitlements */,
 				38B279321FDCBBEC00885BFA /* AppDelegate.swift */,
 				38B279341FDCBBEC00885BFA /* ViewController.swift */,
-				38B279451FDCBCCE00885BFA /* TableTableViewController.swift */,
+				38B279451FDCBCCE00885BFA /* TableViewController.swift */,
+				3805BD0F1FDDE03E00700813 /* MyCustomCellController.swift */,
 				38B279361FDCBBEC00885BFA /* Main.storyboard */,
 				38B279391FDCBBEC00885BFA /* Assets.xcassets */,
 				38B2793B1FDCBBEC00885BFA /* LaunchScreen.storyboard */,
@@ -146,8 +149,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3805BD101FDDE03E00700813 /* MyCustomCellController.swift in Sources */,
 				38B279351FDCBBEC00885BFA /* ViewController.swift in Sources */,
-				38B279461FDCBCCE00885BFA /* TableTableViewController.swift in Sources */,
+				38B279461FDCBCCE00885BFA /* TableViewController.swift in Sources */,
 				38B279331FDCBBEC00885BFA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
