@@ -7,19 +7,29 @@
 //
 
 import UIKit
+import CoreNFC
 
-class ViewController: UIViewController {
-
+class ViewController: UIViewController, NFCNDEFReaderSessionDelegate {
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
     }
-
+    
+    @IBAction func scanButtonPressed(_ sender: UIButton) {
+        let session = NFCNDEFReaderSession(delegate: self, queue: nil, invalidateAfterFirstRead: true)
+        session.begin()
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
-
-
+    
+    func readerSession(_ session: NFCNDEFReaderSession, didInvalidateWithError error: Error) {
+    }
+    
+    func readerSession(_ session: NFCNDEFReaderSession, didDetectNDEFs messages: [NFCNDEFMessage]) {
+        performSegue(withIdentifier: "LoadDataIntoTableView", sender: self)
+    }
+    
 }
 
