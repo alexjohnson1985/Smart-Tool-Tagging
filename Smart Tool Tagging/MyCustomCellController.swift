@@ -9,7 +9,9 @@
 import UIKit
 
 class MyCustomCellController: UITableViewCell {
-
+    
+    @IBOutlet weak var cellLabel: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -21,4 +23,5 @@ class MyCustomCellController: UITableViewCell {
         // Configure the view for the selected state
     }
 
+    
 }
