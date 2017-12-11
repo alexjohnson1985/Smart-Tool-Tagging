@@ -28,6 +28,12 @@ class ViewController: UIViewController, NFCNDEFReaderSessionDelegate {
     }
     
     func readerSession(_ session: NFCNDEFReaderSession, didDetectNDEFs messages: [NFCNDEFMessage]) {
+        for message in messages {
+            for record in message.records {
+                print(String(data: record.payload, encoding: .utf8)!)
+            }
+        }
+        
     }
     
 }
