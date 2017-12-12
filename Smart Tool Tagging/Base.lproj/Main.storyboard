@@ -27,12 +27,20 @@
                                     <action selector="scanButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="evY-IG-QW4"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xOt-xa-aHo">
+                                <rect key="frame" x="61" y="172" width="292" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="27z-C5-tJh"/>
                     <connections>
+                        <outlet property="scannedTagID" destination="xOt-xa-aHo" id="F4C-lN-Nhk"/>
                         <segue destination="Mfh-82-40C" kind="show" identifier="LoadDataIntoTableView" id="JYG-o6-Moj"/>
                     </connections>
                 </viewController>
