@@ -33,8 +33,5 @@ class ViewController: UIViewController, NFCNDEFReaderSessionDelegate {
                 print(String(data: record.payload, encoding: .utf8)!)
             }
         }
-        
     }
-    
 }
-
