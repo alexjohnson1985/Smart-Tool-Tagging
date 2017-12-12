@@ -40,7 +40,7 @@ class ViewController: UIViewController, NFCNDEFReaderSessionDelegate {
                 print(result)
             }
             DispatchQueue.main.async {
-                self.scannedTagID.text = result
+                self.scannedTagID.text = result + " Now 'In Use'"
             }
         }
     }
