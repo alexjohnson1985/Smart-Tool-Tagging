@@ -11,8 +11,6 @@ import CoreNFC
 
 class ViewController: UIViewController, NFCNDEFReaderSessionDelegate {
     
-    var result = ""
-    
     @IBOutlet weak var scannedTagID: UILabel!
     
     override func viewDidLoad() {
@@ -22,7 +20,7 @@ class ViewController: UIViewController, NFCNDEFReaderSessionDelegate {
     @IBAction func scanButtonPressed(_ sender: UIButton) {
         let session = NFCNDEFReaderSession(delegate: self, queue: nil, invalidateAfterFirstRead: true)
         session.begin()
-        self.scannedTagID.text = "Tag ID"
+        self.scannedTagID.text = "Scanning..."
     }
     
     override func didReceiveMemoryWarning() {
