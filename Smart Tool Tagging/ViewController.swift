@@ -40,6 +40,7 @@ class ViewController: UIViewController, NFCNDEFReaderSessionDelegate {
             DispatchQueue.main.async {
                 self.scannedTagID.text = result + " Now In Use"
             }
+            // Push "result" to tableview?
         }
     }
 }

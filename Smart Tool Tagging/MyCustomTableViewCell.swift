@@ -1,16 +1,17 @@
 //
-//  MyCustomCellController.swift
+//  MyCustomTableViewCell.swift
 //  Smart Tool Tagging
 //
-//  Created by Alex Johnson on 10/12/2017.
+//  Created by Alex Johnson on 17/12/2017.
 //  Copyright © 2017 Alex Johnson. All rights reserved.
 //
 
 import UIKit
 
-class MyCustomCellController: UITableViewCell {
-    
-    @IBOutlet weak var cellLabel: UILabel!
+class MyCustomTableViewCell: UITableViewCell {
+
+    @IBOutlet weak var itemEntry: UILabel!
+    @IBOutlet weak var dateAndTimeStamp: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -23,5 +24,4 @@ class MyCustomCellController: UITableViewCell {
         // Configure the view for the selected state
     }
 
-    
 }

@@ -2,22 +2,18 @@
 //  TableViewController.swift
 //  Smart Tool Tagging
 //
-//  Created by Alex Johnson on 10/12/2017.
+//  Created by Alex Johnson on 17/12/2017.
 //  Copyright © 2017 Alex Johnson. All rights reserved.
 //
 
 import UIKit
+import CoreNFC
 
 class TableViewController: UITableViewController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
-
-        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-        // self.navigationItem.rightBarButtonItem = self.editButtonItem
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -25,27 +21,19 @@ class TableViewController: UITableViewController {
         // Dispose of any resources that can be recreated.
     }
 
-    // MARK: - Table view data source
-
-    override func numberOfSections(in tableView: UITableView) -> Int {
-        // #warning Incomplete implementation, return the number of sections
-        return 0
-    }
-
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        // #warning Incomplete implementation, return the number of rows
-        return 0
+        return 1
     }
 
-    /*
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
-
-        // Configure the cell...
-
+        
+        let cell = tableView.dequeueReusableCell(withIdentifier: "CustomCell", for: indexPath) as! MyCustomTableViewCell
+        
+        cell.itemEntry.text = ""
+        cell.dateAndTimeStamp.text = DateFormatter.localizedString(from: Date(), dateStyle: DateFormatter.Style.short, timeStyle: DateFormatter.Style.short)
+        
         return cell
     }
-    */
 
     /*
     // Override to support conditional editing of the table view.

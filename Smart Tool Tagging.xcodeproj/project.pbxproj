@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3800202A1FDDF7F0009FB67F /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 380020291FDDF7F0009FB67F /* TableViewController.swift */; };
-		3805BD101FDDE03E00700813 /* MyCustomCellController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3805BD0F1FDDE03E00700813 /* MyCustomCellController.swift */; };
 		3845A9781FE09AE900F70C07 /* ford-antenna-medium-58955836e60d2.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3845A9771FE09AE900F70C07 /* ford-antenna-medium-58955836e60d2.otf */; };
+		385867191FE7340500A826EC /* MyCustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385867181FE7340500A826EC /* MyCustomTableViewCell.swift */; };
+		3858671B1FE7357E00A826EC /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3858671A1FE7357E00A826EC /* TableViewController.swift */; };
 		38B279331FDCBBEC00885BFA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38B279321FDCBBEC00885BFA /* AppDelegate.swift */; };
 		38B279351FDCBBEC00885BFA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38B279341FDCBBEC00885BFA /* ViewController.swift */; };
 		38B279381FDCBBEC00885BFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38B279361FDCBBEC00885BFA /* Main.storyboard */; };
@@ -18,9 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		380020291FDDF7F0009FB67F /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
-		3805BD0F1FDDE03E00700813 /* MyCustomCellController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCustomCellController.swift; sourceTree = "<group>"; };
 		3845A9771FE09AE900F70C07 /* ford-antenna-medium-58955836e60d2.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "ford-antenna-medium-58955836e60d2.otf"; path = "../../../Fonts/ford-antenna-medium/ford-antenna-medium-58955836e60d2.otf"; sourceTree = "<group>"; };
+		385867181FE7340500A826EC /* MyCustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCustomTableViewCell.swift; sourceTree = "<group>"; };
+		3858671A1FE7357E00A826EC /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		38B2792F1FDCBBEC00885BFA /* Smart Tool Tagging.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Smart Tool Tagging.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		38B279321FDCBBEC00885BFA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		38B279341FDCBBEC00885BFA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -64,8 +64,8 @@
 				38B279441FDCBC3C00885BFA /* Smart Tool Tagging.entitlements */,
 				38B279321FDCBBEC00885BFA /* AppDelegate.swift */,
 				38B279341FDCBBEC00885BFA /* ViewController.swift */,
-				380020291FDDF7F0009FB67F /* TableViewController.swift */,
-				3805BD0F1FDDE03E00700813 /* MyCustomCellController.swift */,
+				3858671A1FE7357E00A826EC /* TableViewController.swift */,
+				385867181FE7340500A826EC /* MyCustomTableViewCell.swift */,
 				38B279361FDCBBEC00885BFA /* Main.storyboard */,
 				38B279391FDCBBEC00885BFA /* Assets.xcassets */,
 				38B2793B1FDCBBEC00885BFA /* LaunchScreen.storyboard */,
@@ -153,10 +153,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3805BD101FDDE03E00700813 /* MyCustomCellController.swift in Sources */,
 				38B279351FDCBBEC00885BFA /* ViewController.swift in Sources */,
 				38B279331FDCBBEC00885BFA /* AppDelegate.swift in Sources */,
-				3800202A1FDDF7F0009FB67F /* TableViewController.swift in Sources */,
+				385867191FE7340500A826EC /* MyCustomTableViewCell.swift in Sources */,
+				3858671B1FE7357E00A826EC /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
