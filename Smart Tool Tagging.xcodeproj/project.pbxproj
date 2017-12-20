@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		380A11FB1FE9EECC00ECDA42 /* TableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 380A11FA1FE9EECC00ECDA42 /* TableViewController.xib */; };
 		3845A9781FE09AE900F70C07 /* ford-antenna-medium-58955836e60d2.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3845A9771FE09AE900F70C07 /* ford-antenna-medium-58955836e60d2.otf */; };
 		385867191FE7340500A826EC /* MyCustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385867181FE7340500A826EC /* MyCustomTableViewCell.swift */; };
 		3858671B1FE7357E00A826EC /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3858671A1FE7357E00A826EC /* TableViewController.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		380A11FA1FE9EECC00ECDA42 /* TableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewController.xib; sourceTree = "<group>"; };
 		3845A9771FE09AE900F70C07 /* ford-antenna-medium-58955836e60d2.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "ford-antenna-medium-58955836e60d2.otf"; path = "../../../Fonts/ford-antenna-medium/ford-antenna-medium-58955836e60d2.otf"; sourceTree = "<group>"; };
 		385867181FE7340500A826EC /* MyCustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCustomTableViewCell.swift; sourceTree = "<group>"; };
 		3858671A1FE7357E00A826EC /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 				38B279341FDCBBEC00885BFA /* ViewController.swift */,
 				3858671A1FE7357E00A826EC /* TableViewController.swift */,
 				385867181FE7340500A826EC /* MyCustomTableViewCell.swift */,
+				380A11FA1FE9EECC00ECDA42 /* TableViewController.xib */,
 				38B279361FDCBBEC00885BFA /* Main.storyboard */,
 				38B279391FDCBBEC00885BFA /* Assets.xcassets */,
 				38B2793B1FDCBBEC00885BFA /* LaunchScreen.storyboard */,
@@ -142,6 +145,7 @@
 				38B2793D1FDCBBEC00885BFA /* LaunchScreen.storyboard in Resources */,
 				38B2793A1FDCBBEC00885BFA /* Assets.xcassets in Resources */,
 				3845A9781FE09AE900F70C07 /* ford-antenna-medium-58955836e60d2.otf in Resources */,
+				380A11FB1FE9EECC00ECDA42 /* TableViewController.xib in Resources */,
 				38B279381FDCBBEC00885BFA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
