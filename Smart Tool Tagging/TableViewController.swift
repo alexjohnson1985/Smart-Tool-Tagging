@@ -11,6 +11,8 @@ import CoreNFC
 
 class TableViewController: UITableViewController {
     
+    var result:String = ""
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -20,9 +22,14 @@ class TableViewController: UITableViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+    
+    override func numberOfSections(in tableView: UITableView) -> Int {
+        // #warning Incomplete implementation, return the number of sections
+        return 0
+    }
+    
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 1
+        return result.count
     }
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
