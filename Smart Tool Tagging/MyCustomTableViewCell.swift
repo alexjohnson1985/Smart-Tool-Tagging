@@ -9,7 +9,7 @@
 import UIKit
 
 class MyCustomTableViewCell: UITableViewCell {
-
+    
     @IBOutlet weak var itemEntry: UILabel!
     @IBOutlet weak var dateAndTimeStamp: UILabel!
     

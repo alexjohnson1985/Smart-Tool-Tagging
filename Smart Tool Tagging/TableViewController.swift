@@ -11,7 +11,7 @@ import CoreNFC
 
 class TableViewController: UITableViewController {
     
-    var result:String = ""
+    var tableEntry:String = ""
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -25,18 +25,19 @@ class TableViewController: UITableViewController {
     
     override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
-        return 0
+        return 1
     }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return result.count
+        return tableEntry.count
     }
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         let cell = tableView.dequeueReusableCell(withIdentifier: "CustomCell", for: indexPath) as! MyCustomTableViewCell
         
-        cell.itemEntry.text = ""
+        let tagID = tableEntry.self
+        cell.itemEntry.text = tagID
         cell.dateAndTimeStamp.text = DateFormatter.localizedString(from: Date(), dateStyle: DateFormatter.Style.short, timeStyle: DateFormatter.Style.short)
         
         return cell

@@ -64,10 +64,10 @@
             </objects>
             <point key="canvasLocation" x="123" y="130"/>
         </scene>
-        <!--Table View Controller-->
+        <!--TableViewController-->
         <scene sceneID="tBe-X0-ifB">
             <objects>
-                <viewController id="y7G-Rk-5zc" customClass="TableViewController" customModule="Smart_Tool_Tagging" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="TableViewController" id="y7G-Rk-5zc" customClass="TableViewController" customModule="Smart_Tool_Tagging" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="wjn-Dq-yZW">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="672"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

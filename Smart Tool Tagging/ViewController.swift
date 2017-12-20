@@ -39,16 +39,14 @@ class ViewController: UIViewController, NFCNDEFReaderSessionDelegate {
     func readerSession(_ session: NFCNDEFReaderSession, didDetectNDEFs messages: [NFCNDEFMessage]) {
         for message in messages {
             for record in message.records {
-                result += String.init(data: record.payload.advanced(by: 3), encoding: .utf8)!
+                result+=String.init(data: record.payload.advanced(by: 3), encoding: .utf8)!
                 print(result)
-            }
-            DispatchQueue.main.async {
-                self.scannedTagID.text = self.scannedTagIDText
-                    let vc = TableViewController(nibName: "TableViewController", bundle: nil)
-                    vc.result = self.result
-
-                    self.navigationController?.pushViewController(vc, animated: true)
-            }
-        }
     }
+            
+    DispatchQueue.main.async {
+        self.scannedTagID.text = self.scannedTagIDText
+    }
+            
+   }
+  }
 }
