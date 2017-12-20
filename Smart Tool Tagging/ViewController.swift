@@ -44,7 +44,9 @@ class ViewController: UIViewController, NFCNDEFReaderSessionDelegate {
     }
             
     DispatchQueue.main.async {
-        self.scannedTagID.text = self.scannedTagIDText
+        self.scannedTagID.text = self.result + " Now In Use"
+        
+//        self.scannedTagID.text = self.scannedTagIDText
     }
             
    }
