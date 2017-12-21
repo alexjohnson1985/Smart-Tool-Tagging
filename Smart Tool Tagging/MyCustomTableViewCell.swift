@@ -11,7 +11,16 @@ import UIKit
 class MyCustomTableViewCell: UITableViewCell {
     
     @IBOutlet weak var itemEntry: UILabel!
+    
+    func addItem(_ sender: AnyObject) {
+        if (itemEntry.text != "") {
+            result.append(itemEntry.text!)
+            itemEntry.text = ""
+        }
+    }
     @IBOutlet weak var dateAndTimeStamp: UILabel!
+    
+    
     
     override func awakeFromNib() {
         super.awakeFromNib()

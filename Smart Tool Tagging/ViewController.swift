@@ -9,9 +9,9 @@
 import UIKit
 import CoreNFC
 
+var result = ""
+
 class ViewController: UIViewController, NFCNDEFReaderSessionDelegate {
-    
-    var result = ""
     
     @IBOutlet weak var scannedTagID: UILabel!
     
@@ -44,7 +44,7 @@ class ViewController: UIViewController, NFCNDEFReaderSessionDelegate {
     }
             
     DispatchQueue.main.async {
-        self.scannedTagID.text = self.result + " Now In Use"
+        self.scannedTagID.text = result + " Now In Use"
         
 //        self.scannedTagID.text = self.scannedTagIDText
     }
